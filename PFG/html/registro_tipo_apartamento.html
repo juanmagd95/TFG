@@ -1,0 +1,18 @@
+<?php include('../php/insertar_tipo_apartamento.php'); ?>
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript" src="../javascript/validaciones_tipo_apartamento.js" ></script>
+
+<link rel='stylesheet' type='text/css' href='../Estilos/registro_tipo_apartamento.css'>
+</head>
+
+<body>
+<form method="post" action="../php/insertar_tipo_apartamento.php" onsubmit="JavaScript:return validar_tipo_apartamento(this);">
+	Tipo:<input type="text" name="nombre_tipo">
+	<input type="submit" value="Registrar Tipo de Apartamento">
+</form>
+</body>
+</html>
+

@@ -1,0 +1,17 @@
+<?php include('../php/insertar_pais.php'); ?>
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel='stylesheet' type='text/css' href='../Estilos/registro_pais.css'>
+<script type="text/javascript" src="../javascript/validaciones_pais.js" ></script>
+</head>
+
+<body>
+<form method="post" action="../php/insertar_pais.php" id="formulario" onsubmit="JavaScript:return validar_pais(this);" >
+	País:<input type="text" name="nombre_pais">
+	<input type="submit" value="Registrar Pais">
+</form>
+</body>
+</html>
+

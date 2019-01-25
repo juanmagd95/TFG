@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript" src="../javascript/validaciones_ingreso_usuario.js" ></script>
+<link rel='stylesheet' type='text/css' href='../Estilos/ingreso_usuario.css'>
+</head>
+
+<body>
+<form method="post" action="../php/ingresar_usuario.php" onsubmit="JavaScript:return validar_ingreso_usuario(this);">
+Nombre de usuario:<input type="text" name="login">
+Contraseña:<input type="password" name="password">
+<input type="submit" value="Enviar">
+</form>
+</body>
+</html>

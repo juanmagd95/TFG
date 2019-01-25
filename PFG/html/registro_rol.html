@@ -1,0 +1,17 @@
+<?php include('../php/insertar_rol.php'); ?>
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel='stylesheet' type='text/css' href='../Estilos/registro_rol.css'>
+<script type="text/javascript" src="../javascript/validaciones_rol.js" ></script>
+</head>
+
+<body>
+<form method="post" action="../php/insertar_rol.php" id="formulario" onsubmit="JavaScript:return validar_rol(this);" >
+	Rol:<input type="text" name="nombre_rol">
+	<input type="submit" value="Registrar Rol">
+</form>
+</body>
+</html>
+
